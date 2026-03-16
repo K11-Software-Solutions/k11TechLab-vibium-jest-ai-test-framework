@@ -245,13 +245,13 @@ LinkedIn: [https://www.linkedin.com/in/kavita-jadhav-tech/](https://www.linkedin
 
 ## Follow Me
 <p align="center">
-  <img src="artifacts/assets/k11_logo.png" alt="K11 Software Solutions Logo" height="60" style="margin-right:20px;vertical-align:middle;"/>
-  <img src="artifacts/assets/vibium-logo.svg" alt="Vibium Logo" height="60" style="margin-right:20px;vertical-align:middle;"/>
-  <img src="artifacts/assets/typescript-logo.svg" alt="TypeScript Logo" height="60" style="margin-right:20px;vertical-align:middle;"/>
-  <img src="artifacts/assets/jest-logo.svg" alt="Jest Logo" height="60" style="margin-right:20px;vertical-align:middle;"/>
-  <img src="artifacts/assets/github-actions-logo.svg" alt="GitHub Actions Logo" height="60" style="vertical-align:middle;"/>
+  <a href="https://github.com/K11-Software-Solutions/" target="_blank">
+    <img src="https://img.shields.io/badge/K11%20Tech%20Lab-FFFFFF?style=for-the-badge&logo=github&logoColor=black" alt="K11 Tech Lab"/>
+  </a>
+  <a href="https://k11softwaresolutions.com" target="_blank">
+    <img src="https://img.shields.io/badge/k11softwaresolutions-00B386?style=for-the-badge&logo=google-chrome&logoColor=white" alt="k11softwaresolutions"/>
+  </a>
 </p>
-
 
 
 
