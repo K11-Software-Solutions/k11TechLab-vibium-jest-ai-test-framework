@@ -1,0 +1,69 @@
+{
+  "success": true,
+  "startTime": 1773560521491,
+  "timestamp": "2026-03-15_02-42-01",
+  "runName": "post-jsonplaceholder-test-and-1-more",
+  "numTotalTestSuites": 2,
+  "numPassedTestSuites": 2,
+  "numFailedTestSuites": 0,
+  "numTotalTests": 2,
+  "numPassedTests": 2,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "testResults": [
+    {
+      "testFilePath": "C:\\Users\\kavit\\Automation\\K11tech\\k11TechLab-vibium-demo\\src\\k11-platform\\tests\\api\\POST_jsonplaceholder.test.ts",
+      "perfStats": {
+        "end": 1773560523754,
+        "loadTestEnvironmentEnd": 1773560521732,
+        "loadTestEnvironmentStart": 1773560521692,
+        "runtime": 2021,
+        "setupAfterEnvEnd": 1773560521862,
+        "setupAfterEnvStart": 1773560521862,
+        "setupFilesEnd": 1773560521733,
+        "setupFilesStart": 1773560521733,
+        "slow": false,
+        "start": 1773560521733
+      },
+      "numPassingTests": 1,
+      "numFailingTests": 0,
+      "numPendingTests": 0,
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "title": "jsonplaceholder_Post: should POST and validate response",
+          "status": "passed",
+          "duration": 221,
+          "failureMessages": []
+        }
+      ]
+    },
+    {
+      "testFilePath": "C:\\Users\\kavit\\Automation\\K11tech\\k11TechLab-vibium-demo\\src\\k11-platform\\tests\\api\\GET_jsonplaceholder.test.ts",
+      "perfStats": {
+        "end": 1773560523836,
+        "loadTestEnvironmentEnd": 1773560523763,
+        "loadTestEnvironmentStart": 1773560523758,
+        "runtime": 73,
+        "setupAfterEnvEnd": 1773560523798,
+        "setupAfterEnvStart": 1773560523798,
+        "setupFilesEnd": 1773560523763,
+        "setupFilesStart": 1773560523763,
+        "slow": false,
+        "start": 1773560523763
+      },
+      "numPassingTests": 1,
+      "numFailingTests": 0,
+      "numPendingTests": 0,
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "title": "jsonplaceholder_get: should GET and validate response",
+          "status": "passed",
+          "duration": 36,
+          "failureMessages": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="80" viewBox="0 0 320 80" role="img" aria-label="Jest logo">
+  <rect width="320" height="80" rx="16" fill="#1F2937"/>
+  <circle cx="44" cy="40" r="22" fill="#99425B"/>
+  <path d="M36 27h16v6H36zm0 10h16v6H36zm0 10h16v6H36z" fill="#FFFFFF"/>
+  <circle cx="44" cy="30" r="3" fill="#FFFFFF"/>
+  <circle cx="44" cy="40" r="3" fill="#FFFFFF"/>
+  <circle cx="44" cy="50" r="3" fill="#FFFFFF"/>
+  <text x="86" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#F9FAFB">Jest</text>
+</svg>

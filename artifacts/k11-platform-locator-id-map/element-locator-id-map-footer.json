@@ -1,0 +1,24 @@
+{
+  "component": "Footer",
+  "locators": {
+    "footer-root": { "selector": "footer", "type": "container" },
+    "footer-logo-img": { "selector": "img[alt='K11 Logo']", "type": "image" },
+    "footer-title": { "selector": "span", "type": "brand-title" },
+    "footer-desc": { "selector": "p", "type": "description" },
+    "footer-solutions": { "selector": "h3:contains('Solutions')", "type": "section-title" },
+    "footer-solutions-services": { "selector": "a[href='/services']", "type": "footer-link" },
+    "footer-solutions-insights": { "selector": "a[href='/insights']", "type": "footer-link" },
+    "footer-solutions-community": { "selector": "a[href='/community']", "type": "footer-link" },
+    "footer-solutions-about": { "selector": "a[href='/about']", "type": "footer-link" },
+    "footer-solutions-contact": { "selector": "a[href='/contact']", "type": "footer-link" },
+    "footer-contact-email": { "selector": "a[href^='mailto:']", "type": "footer-link" },
+    "footer-get-started-services": { "selector": "a[href='/services']", "type": "footer-link" },
+    "footer-get-started-subscribe": { "selector": "a[href='/register']", "type": "footer-link" },
+    "footer-social-linkedin": { "selector": "a[href*='linkedin.com']", "type": "social-link" },
+    "footer-social-github": { "selector": "a[href*='github.com']", "type": "social-link" },
+    "footer-social-youtube": { "selector": "a[href*='youtube.com']", "type": "social-link" },
+    "footer-privacy": { "selector": "a[href='/privacy-policy']", "type": "footer-link" },
+    "footer-terms": { "selector": "a[href='/terms-of-use']", "type": "footer-link" },
+    "footer-contact": { "selector": "a[href='/contact']", "type": "footer-link" }
+  }
+}

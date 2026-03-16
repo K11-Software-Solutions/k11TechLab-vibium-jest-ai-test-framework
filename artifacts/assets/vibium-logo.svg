@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="80" viewBox="0 0 320 80" role="img" aria-label="Vibium logo">
+  <rect width="320" height="80" rx="16" fill="#111827"/>
+  <path d="M46 20L58 40L46 60H32L44 40L32 20H46ZM66 20L78 40L66 60H52L64 40L52 20H66Z" fill="#22C55E"/>
+  <text x="100" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700" fill="#F9FAFB">vibium</text>
+</svg>

@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "startTime": 1773560289070,
+  "timestamp": "2026-03-15_02-38-09",
+  "runName": "formslab-db-test",
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numTotalTests": 1,
+  "numPassedTests": 1,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "testResults": [
+    {
+      "testFilePath": "C:\\Users\\kavit\\Automation\\K11tech\\k11TechLab-vibium-demo\\src\\k11-platform\\tests\\db\\FormsLab.DB.test.ts",
+      "perfStats": {
+        "end": 1773560294758,
+        "loadTestEnvironmentEnd": 1773560289337,
+        "loadTestEnvironmentStart": 1773560289288,
+        "runtime": 5420,
+        "setupAfterEnvEnd": 1773560289481,
+        "setupAfterEnvStart": 1773560289481,
+        "setupFilesEnd": 1773560289338,
+        "setupFilesStart": 1773560289338,
+        "slow": true,
+        "start": 1773560289338
+      },
+      "numPassingTests": 1,
+      "numFailingTests": 0,
+      "numPendingTests": 0,
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "Forms Lab UI + DB Integration"
+          ],
+          "title": "should fill form via UI and verify in DB",
+          "status": "passed",
+          "duration": 890,
+          "failureMessages": []
+        }
+      ]
+    }
+  ]
+}

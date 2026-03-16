@@ -1,0 +1,31 @@
+{
+  "pageUrl": "/labs/tables",
+  "locators": {
+    "tables-lab-root": { "id": "tables-lab-root", "type": "container" },
+    "title": { "id": "tables-lab-title", "type": "heading" },
+    "desc": { "id": "tables-lab-desc", "type": "text" },
+    "table": { "id": "tables-lab-table", "type": "table" },
+    "thead": { "id": "tables-lab-thead", "type": "container" },
+    "header_row": { "id": "tables-lab-header-row", "type": "row" },
+    "header_name": { "id": "tables-lab-header-name", "type": "header" },
+    "header_age": { "id": "tables-lab-header-age", "type": "header" },
+    "header_role": { "id": "tables-lab-header-role", "type": "header" },
+    "tbody": { "id": "tables-lab-tbody", "type": "container" },
+    "row_1": { "id": "tables-lab-row-1", "type": "row" },
+    "row_1_name": { "id": "tables-lab-row-1-name", "type": "cell" },
+    "row_1_age": { "id": "tables-lab-row-1-age", "type": "cell" },
+    "row_1_role": { "id": "tables-lab-row-1-role", "type": "cell" },
+    "row_2": { "id": "tables-lab-row-2", "type": "row" },
+    "row_2_name": { "id": "tables-lab-row-2-name", "type": "cell" },
+    "row_2_age": { "id": "tables-lab-row-2-age", "type": "cell" },
+    "row_2_role": { "id": "tables-lab-row-2-role", "type": "cell" },
+    "row_3": { "id": "tables-lab-row-3", "type": "row" },
+    "row_3_name": { "id": "tables-lab-row-3-name", "type": "cell" },
+    "row_3_age": { "id": "tables-lab-row-3-age", "type": "cell" },
+    "row_3_role": { "id": "tables-lab-row-3-role", "type": "cell" },
+    "features_list": { "id": "tables-lab-features-list", "type": "list" },
+    "feature_sort": { "id": "tables-lab-feature-sort", "type": "item" },
+    "feature_filter": { "id": "tables-lab-feature-filter", "type": "item" },
+    "feature_edit": { "id": "tables-lab-feature-edit", "type": "item" }
+  }
+}

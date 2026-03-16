@@ -1,0 +1,58 @@
+{
+  "name": "k11techlab-vibium-jest-ai-test-framework",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "description": "Production-style Jest + Vibium + AI test automation framework for k11softwaresolutions.com",
+  "keywords": [
+    "vibium",
+    "jest",
+    "ai",
+    "test-automation",
+    "lighthouse",
+    "api-testing"
+  ],
+  "scripts": {
+    "test": "jest --runInBand",
+    "test:smoke": "jest src/k11-platform/tests/smoke --runInBand",
+    "test:functional": "jest src/k11-platform/tests/functional --runInBand",
+    "test:api": "jest src/k11-platform/tests/api --runInBand",
+    "test:db": "jest src/k11-platform/tests/db --runInBand",
+    "test:devices": "jest src/k11-platform/tests/devices --runInBand",
+    "test:e2e": "jest src/k11-platform/tests/e2e --runInBand",
+    "test:lighthouse": "jest src/k11-platform/tests/lighthouse/Lighthouse.test.js --runInBand",
+    "test:ci": "npm run test:api && npm run test:smoke",
+    "vibium:k11:async": "node scripts/vibium-demo/k11-smoke-async.mjs",
+    "vibium:k11:sync": "node scripts/vibium-demo/k11-smoke-sync.cjs",
+    "vibium:record:ts": "tsx scripts/vibium-demo/record-flow.ts",
+    "ai:generate:test": "node scripts/ai/generate-test.mjs",
+    "ai:runner:homepage": "powershell -ExecutionPolicy Bypass -File ./ai-test-runner/run-homepage-services.ps1",
+    "ai:runner:login": "powershell -ExecutionPolicy Bypass -File ./ai-test-runner/run-login-dashboard.ps1",
+    "ai:runner:formslab": "powershell -ExecutionPolicy Bypass -File ./ai-test-runner/run-formslab-submit.ps1",
+    "mcp:server": "tsx mcp-server/vibium-mcp-server.ts",
+    "agent:run": "node agent/run-vibium-agent.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.5",
+    "@vibium/win32-x64": "^26.3.11",
+    "crypto-js": "^4.2.0",
+    "exceljs": "^4.4.0",
+    "pdfjs-dist-es5": "^2.13.216",
+    "sqlite3": "^6.0.1",
+    "vibium": "^26.3.11",
+    "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
+    "@types/exceljs": "^0.5.3",
+    "@types/jest": "^30.0.0",
+    "@types/pg": "^8.18.0",
+    "chrome-launcher": "^1.2.1",
+    "lighthouse": "^12.8.2",
+    "node-fetch": "^3.3.2",
+    "ts-jest": "^29.4.6",
+    "tsx": "^4.21.0",
+    "typescript": "^5.0.0"
+  }
+}

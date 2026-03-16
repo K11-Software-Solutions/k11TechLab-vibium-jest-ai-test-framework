@@ -1,0 +1,44 @@
+{
+  "success": false,
+  "startTime": 1773586618928,
+  "timestamp": "2026-03-15_09-56-58",
+  "runName": "get-jsonplaceholder-test",
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 0,
+  "numFailedTestSuites": 1,
+  "numTotalTests": 1,
+  "numPassedTests": 0,
+  "numFailedTests": 1,
+  "numPendingTests": 0,
+  "testResults": [
+    {
+      "testFilePath": "C:\\Users\\kavit\\Automation\\K11tech\\k11TechLab-vibium-jest-ai-test-framework\\src\\k11-platform\\tests\\api\\GET_jsonplaceholder.test.ts",
+      "perfStats": {
+        "end": 1773586623293,
+        "loadTestEnvironmentEnd": 1773586619472,
+        "loadTestEnvironmentStart": 1773586619328,
+        "runtime": 3820,
+        "setupAfterEnvEnd": 1773586619689,
+        "setupAfterEnvStart": 1773586619689,
+        "setupFilesEnd": 1773586619473,
+        "setupFilesStart": 1773586619473,
+        "slow": false,
+        "start": 1773586619473
+      },
+      "numPassingTests": 0,
+      "numFailingTests": 1,
+      "numPendingTests": 0,
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "title": "jsonplaceholder_get: should GET and validate response",
+          "status": "failed",
+          "duration": 398,
+          "failureMessages": [
+            "TypeError: fetch failed\n    at node:internal/deps/undici/undici:13510:13\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at Object.<anonymous> (C:\\Users\\kavit\\Automation\\K11tech\\k11TechLab-vibium-jest-ai-test-framework\\src\\k11-platform\\tests\\api\\GET_jsonplaceholder.test.ts:6:22)"
+          ]
+        }
+      ]
+    }
+  ]
+}

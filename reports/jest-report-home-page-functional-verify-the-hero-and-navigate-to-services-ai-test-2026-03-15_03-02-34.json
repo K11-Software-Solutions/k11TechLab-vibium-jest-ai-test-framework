@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "startTime": 1773561754726,
+  "timestamp": "2026-03-15_03-02-34",
+  "runName": "home-page-functional-verify-the-hero-and-navigate-to-services-ai-test",
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numTotalTests": 1,
+  "numPassedTests": 1,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "testResults": [
+    {
+      "testFilePath": "C:\\Users\\kavit\\Automation\\K11tech\\k11TechLab-vibium-demo\\src\\k11-platform\\tests\\generated\\home-page.functional.verify-the-hero-and-navigate-to-services.ai.test.ts",
+      "perfStats": {
+        "end": 1773561760615,
+        "loadTestEnvironmentEnd": 1773561754986,
+        "loadTestEnvironmentStart": 1773561754945,
+        "runtime": 5628,
+        "setupAfterEnvEnd": 1773561755120,
+        "setupAfterEnvStart": 1773561755120,
+        "setupFilesEnd": 1773561754987,
+        "setupFilesStart": 1773561754987,
+        "slow": true,
+        "start": 1773561754987
+      },
+      "numPassingTests": 1,
+      "numFailingTests": 0,
+      "numPendingTests": 0,
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "AI Generated HomePage functional flow"
+          ],
+          "title": "Verify the hero and navigate to services",
+          "status": "passed",
+          "duration": 1247,
+          "failureMessages": []
+        }
+      ]
+    }
+  ]
+}

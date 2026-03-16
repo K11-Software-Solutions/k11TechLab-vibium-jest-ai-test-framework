@@ -1,0 +1,42 @@
+{
+  "success": true,
+  "startTime": 1773587437674,
+  "timestamp": "2026-03-15_10-10-37",
+  "runName": "get-jsonplaceholder-test",
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numTotalTests": 1,
+  "numPassedTests": 1,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "testResults": [
+    {
+      "testFilePath": "C:\\Users\\kavit\\Automation\\K11tech\\k11TechLab-vibium-jest-ai-test-framework\\src\\k11-platform\\tests\\api\\GET_jsonplaceholder.test.ts",
+      "perfStats": {
+        "end": 1773587439456,
+        "loadTestEnvironmentEnd": 1773587437951,
+        "loadTestEnvironmentStart": 1773587437907,
+        "runtime": 1504,
+        "setupAfterEnvEnd": 1773587438097,
+        "setupAfterEnvStart": 1773587438097,
+        "setupFilesEnd": 1773587437952,
+        "setupFilesStart": 1773587437952,
+        "slow": false,
+        "start": 1773587437952
+      },
+      "numPassingTests": 1,
+      "numFailingTests": 0,
+      "numPendingTests": 0,
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "title": "jsonplaceholder_get: should GET and validate response",
+          "status": "passed",
+          "duration": 336,
+          "failureMessages": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Jest Report 2026-03-15_02-41-09</title>
+  <style>
+    body { font-family: Segoe UI, Arial, sans-serif; margin: 24px; color: #1f2937; background: #f8fafc; }
+    h1, h2 { margin-bottom: 8px; }
+    .summary { background: white; border: 1px solid #dbe2ea; border-radius: 8px; padding: 16px; margin-bottom: 24px; }
+    .suite { background: white; border: 1px solid #dbe2ea; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+    th, td { border: 1px solid #e5e7eb; padding: 8px; text-align: left; vertical-align: top; }
+    th { background: #f1f5f9; }
+    .status.passed { color: #166534; font-weight: 600; }
+    .status.failed { color: #991b1b; font-weight: 600; }
+    .status.pending { color: #92400e; font-weight: 600; }
+    pre { white-space: pre-wrap; margin: 0; font-family: Consolas, monospace; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <h1>Jest Test Report</h1>
+  <div class="summary">
+    <p><strong>Timestamp:</strong> 2026-03-15_02-41-09</p>
+    <p><strong>Success:</strong> false</p>
+    <p><strong>Suites:</strong> 1/2 passed</p>
+    <p><strong>Tests:</strong> 1/2 passed, 1 failed, 0 pending</p>
+  </div>
+  
+      <section class="suite">
+        <h2>C:\Users\kavit\Automation\K11tech\k11TechLab-vibium-demo\src\k11-platform\tests\api\GET_jsonplaceholder.test.ts</h2>
+        <p>Passed: 1 | Failed: 0 | Pending: 0</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Suite</th>
+              <th>Test</th>
+              <th>Status</th>
+              <th>Duration (ms)</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr>
+          <td>(root)</td>
+          <td>jsonplaceholder_get: should GET and validate response</td>
+          <td class="status passed">passed</td>
+          <td>369</td>
+        </tr>
+        
+      </tbody>
+        </table>
+      </section>
+    
+      <section class="suite">
+        <h2>C:\Users\kavit\Automation\K11tech\k11TechLab-vibium-demo\src\k11-platform\tests\api\POST_jsonplaceholder.test.ts</h2>
+        <p>Passed: 0 | Failed: 1 | Pending: 0</p>
+        <table>
+          <thead>
+            <tr>
+              <th>Suite</th>
+              <th>Test</th>
+              <th>Status</th>
+              <th>Duration (ms)</th>
+            </tr>
+          </thead>
+          <tbody>
+        <tr>
+          <td>(root)</td>
+          <td>jsonplaceholder_Post: should POST and validate response</td>
+          <td class="status failed">failed</td>
+          <td>223</td>
+        </tr>
+        <tr><td colspan="4"><pre>Error: Expected status 200, got 201
+    at APIUtil.&lt;anonymous&gt; (C:\Users\kavit\Automation\K11tech\k11TechLab-vibium-demo\src\utils\APIUtil.ts:15:13)
+    at Generator.next (&lt;anonymous&gt;)
+    at C:\Users\kavit\Automation\K11tech\k11TechLab-vibium-demo\src\utils\APIUtil.ts:8:71
+    at new Promise (&lt;anonymous&gt;)
+    at __awaiter (C:\Users\kavit\Automation\K11tech\k11TechLab-vibium-demo\src\utils\APIUtil.ts:4:12)
+    at APIUtil.assertStatusOk (C:\Users\kavit\Automation\K11tech\k11TechLab-vibium-demo\src\utils\APIUtil.ts:25:16)
+    at C:\Users\kavit\Automation\K11tech\k11TechLab-vibium-demo\src\k11-platform\tests\api\POST_jsonplaceholder.test.ts:14:17
+    at Generator.next (&lt;anonymous&gt;)
+    at fulfilled (C:\Users\kavit\Automation\K11tech\k11TechLab-vibium-demo\src\k11-platform\tests\api\POST_jsonplaceholder.test.ts:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)</pre></td></tr>
+      </tbody>
+        </table>
+      </section>
+    
+</body>
+</html>

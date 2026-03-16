@@ -1,0 +1,53 @@
+{
+  "success": true,
+  "startTime": 1773561306798,
+  "timestamp": "2026-03-15_02-55-06",
+  "runName": "lighthouse-test",
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numTotalTests": 2,
+  "numPassedTests": 2,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "testResults": [
+    {
+      "testFilePath": "C:\\Users\\kavit\\Automation\\K11tech\\k11TechLab-vibium-demo\\src\\k11-platform\\tests\\lighthouse\\Lighthouse.test.js",
+      "perfStats": {
+        "end": 1773561342164,
+        "loadTestEnvironmentEnd": 1773561307039,
+        "loadTestEnvironmentStart": 1773561306997,
+        "runtime": 35124,
+        "setupAfterEnvEnd": 1773561307176,
+        "setupAfterEnvStart": 1773561307176,
+        "setupFilesEnd": 1773561307040,
+        "setupFilesStart": 1773561307040,
+        "slow": true,
+        "start": 1773561307040
+      },
+      "numPassingTests": 2,
+      "numFailingTests": 0,
+      "numPendingTests": 0,
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "Lighthouse: homepage"
+          ],
+          "title": "should generate a desktop Lighthouse report",
+          "status": "passed",
+          "duration": 18819,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "Lighthouse: homepage"
+          ],
+          "title": "should generate a mobile Lighthouse report",
+          "status": "passed",
+          "duration": 16161,
+          "failureMessages": []
+        }
+      ]
+    }
+  ]
+}

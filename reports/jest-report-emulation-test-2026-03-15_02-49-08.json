@@ -1,0 +1,95 @@
+{
+  "success": true,
+  "startTime": 1773560948451,
+  "timestamp": "2026-03-15_02-49-08",
+  "runName": "emulation-test",
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numTotalTests": 6,
+  "numPassedTests": 6,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "testResults": [
+    {
+      "testFilePath": "C:\\Users\\kavit\\Automation\\K11tech\\k11TechLab-vibium-demo\\src\\k11-platform\\tests\\devices\\Emulation.test.ts",
+      "perfStats": {
+        "end": 1773560955571,
+        "loadTestEnvironmentEnd": 1773560948688,
+        "loadTestEnvironmentStart": 1773560948649,
+        "runtime": 6882,
+        "setupAfterEnvEnd": 1773560948825,
+        "setupAfterEnvStart": 1773560948825,
+        "setupFilesEnd": 1773560948689,
+        "setupFilesStart": 1773560948689,
+        "slow": true,
+        "start": 1773560948689
+      },
+      "numPassingTests": 6,
+      "numFailingTests": 0,
+      "numPendingTests": 0,
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "Device Suite: Home Page",
+            "Emulation: Desktop"
+          ],
+          "title": "should show main header",
+          "status": "passed",
+          "duration": 1465,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "Device Suite: Home Page",
+            "Emulation: Desktop"
+          ],
+          "title": "should show Explore Services button",
+          "status": "passed",
+          "duration": 297,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "Device Suite: Home Page",
+            "Emulation: iPhone X"
+          ],
+          "title": "should show main header",
+          "status": "passed",
+          "duration": 317,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "Device Suite: Home Page",
+            "Emulation: iPhone X"
+          ],
+          "title": "should show Explore Services button",
+          "status": "passed",
+          "duration": 166,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "Device Suite: Home Page",
+            "Emulation: iPad"
+          ],
+          "title": "should show main header",
+          "status": "passed",
+          "duration": 173,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "Device Suite: Home Page",
+            "Emulation: iPad"
+          ],
+          "title": "should show Explore Services button",
+          "status": "passed",
+          "duration": 241,
+          "failureMessages": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "component": "Navbar",
+  "locators": {
+    "navbar-root": { "selector": "header", "type": "container" },
+    "navbar-logo-link": { "selector": "a[href='/']", "type": "brand-link" },
+    "navbar-logo-img": { "selector": "img[alt='K11 Logo']", "type": "image" },
+    "navbar-title": { "selector": "span", "type": "brand-title" },
+    "nav-home": { "selector": "a[href='/']", "type": "nav-link" },
+    "nav-services": { "selector": "a[href='/services']", "type": "nav-link" },
+    "nav-insights": { "selector": "a[href='/insights']", "type": "nav-link" },
+    "nav-tech-lab": { "selector": "a[href='/tech-lab']", "type": "nav-link" },
+    "nav-blog": { "selector": "a[href='/blog']", "type": "nav-link" },
+    "nav-community": { "selector": "a[href='/community']", "type": "nav-link" },
+    "nav-about": { "selector": "a[href='/about']", "type": "nav-link" },
+    "nav-contact": { "selector": "a[href='/contact']", "type": "nav-link" }
+  }
+}

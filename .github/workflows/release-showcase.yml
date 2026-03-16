@@ -1,0 +1,41 @@
+name: Release Showcase Bundle
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  bundle:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Prepare bundle
+        run: |
+          mkdir -p release-bundle
+          cp -r README.md LICENSE package.json .env.example release-bundle/
+          cp -r doc prompts ai-test-runner scripts src release-bundle/
+
+      - name: Archive bundle
+        run: |
+          cd release-bundle
+          zip -r ../k11techlab-vibium-jest-ai-test-framework-showcase.zip .
+
+      - name: Upload workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: showcase-bundle
+          path: k11techlab-vibium-jest-ai-test-framework-showcase.zip
+
+      - name: Create GitHub release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: k11techlab-vibium-jest-ai-test-framework-showcase.zip

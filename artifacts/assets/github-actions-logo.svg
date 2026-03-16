@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="80" viewBox="0 0 320 80" role="img" aria-label="GitHub Actions logo">
+  <rect width="320" height="80" rx="16" fill="#0F172A"/>
+  <path d="M34 24h20l10 16-10 16H34l10-16-10-16zm22 8h18v8H56zm0 12h18v8H56z" fill="#2088FF"/>
+  <text x="98" y="50" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#F9FAFB">GitHub Actions</text>
+</svg>

@@ -1,0 +1,71 @@
+{
+  "success": false,
+  "startTime": 1773560469918,
+  "timestamp": "2026-03-15_02-41-09",
+  "runName": "get-jsonplaceholder-test-and-1-more",
+  "numTotalTestSuites": 2,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 1,
+  "numTotalTests": 2,
+  "numPassedTests": 1,
+  "numFailedTests": 1,
+  "numPendingTests": 0,
+  "testResults": [
+    {
+      "testFilePath": "C:\\Users\\kavit\\Automation\\K11tech\\k11TechLab-vibium-demo\\src\\k11-platform\\tests\\api\\GET_jsonplaceholder.test.ts",
+      "perfStats": {
+        "end": 1773560472399,
+        "loadTestEnvironmentEnd": 1773560470174,
+        "loadTestEnvironmentStart": 1773560470134,
+        "runtime": 2224,
+        "setupAfterEnvEnd": 1773560470304,
+        "setupAfterEnvStart": 1773560470304,
+        "setupFilesEnd": 1773560470175,
+        "setupFilesStart": 1773560470175,
+        "slow": false,
+        "start": 1773560470175
+      },
+      "numPassingTests": 1,
+      "numFailingTests": 0,
+      "numPendingTests": 0,
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "title": "jsonplaceholder_get: should GET and validate response",
+          "status": "passed",
+          "duration": 369,
+          "failureMessages": []
+        }
+      ]
+    },
+    {
+      "testFilePath": "C:\\Users\\kavit\\Automation\\K11tech\\k11TechLab-vibium-demo\\src\\k11-platform\\tests\\api\\POST_jsonplaceholder.test.ts",
+      "perfStats": {
+        "end": 1773560472755,
+        "loadTestEnvironmentEnd": 1773560472407,
+        "loadTestEnvironmentStart": 1773560472402,
+        "runtime": 348,
+        "setupAfterEnvEnd": 1773560472437,
+        "setupAfterEnvStart": 1773560472437,
+        "setupFilesEnd": 1773560472407,
+        "setupFilesStart": 1773560472407,
+        "slow": false,
+        "start": 1773560472407
+      },
+      "numPassingTests": 0,
+      "numFailingTests": 1,
+      "numPendingTests": 0,
+      "assertionResults": [
+        {
+          "ancestorTitles": [],
+          "title": "jsonplaceholder_Post: should POST and validate response",
+          "status": "failed",
+          "duration": 223,
+          "failureMessages": [
+            "Error: Expected status 200, got 201\n    at APIUtil.<anonymous> (C:\\Users\\kavit\\Automation\\K11tech\\k11TechLab-vibium-demo\\src\\utils\\APIUtil.ts:15:13)\n    at Generator.next (<anonymous>)\n    at C:\\Users\\kavit\\Automation\\K11tech\\k11TechLab-vibium-demo\\src\\utils\\APIUtil.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\kavit\\Automation\\K11tech\\k11TechLab-vibium-demo\\src\\utils\\APIUtil.ts:4:12)\n    at APIUtil.assertStatusOk (C:\\Users\\kavit\\Automation\\K11tech\\k11TechLab-vibium-demo\\src\\utils\\APIUtil.ts:25:16)\n    at C:\\Users\\kavit\\Automation\\K11tech\\k11TechLab-vibium-demo\\src\\k11-platform\\tests\\api\\POST_jsonplaceholder.test.ts:14:17\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\kavit\\Automation\\K11tech\\k11TechLab-vibium-demo\\src\\k11-platform\\tests\\api\\POST_jsonplaceholder.test.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+          ]
+        }
+      ]
+    }
+  ]
+}

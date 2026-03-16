@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "startTime": 1773587383459,
+  "timestamp": "2026-03-15_10-09-43",
+  "runName": "homepage-smoke-test",
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numTotalTests": 1,
+  "numPassedTests": 1,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "testResults": [
+    {
+      "testFilePath": "C:\\Users\\kavit\\Automation\\K11tech\\k11TechLab-vibium-jest-ai-test-framework\\src\\k11-platform\\tests\\smoke\\homepage.smoke.test.ts",
+      "perfStats": {
+        "end": 1773587396607,
+        "loadTestEnvironmentEnd": 1773587383720,
+        "loadTestEnvironmentStart": 1773587383677,
+        "runtime": 12886,
+        "setupAfterEnvEnd": 1773587383863,
+        "setupAfterEnvStart": 1773587383863,
+        "setupFilesEnd": 1773587383721,
+        "setupFilesStart": 1773587383721,
+        "slow": true,
+        "start": 1773587383721
+      },
+      "numPassingTests": 1,
+      "numFailingTests": 0,
+      "numPendingTests": 0,
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "K11softwaresolutions.com Home Page UI and Navigation screenshot"
+          ],
+          "title": "should load home page, capture screenshot, and test navigation",
+          "status": "passed",
+          "duration": 5093,
+          "failureMessages": []
+        }
+      ]
+    }
+  ]
+}

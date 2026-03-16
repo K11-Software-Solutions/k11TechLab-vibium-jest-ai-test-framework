@@ -1,0 +1,20 @@
+{
+  "pageUrl": "/labs/forms",
+  "locators": {
+    "forms-lab-root": { "id": "forms-lab-root", "type": "container" },
+    "title": { "id": "forms-lab-title", "type": "heading" },
+    "desc": { "id": "forms-lab-desc", "type": "text" },
+    "form": { "id": "forms-lab-form", "type": "form" },
+    "text_field_row": { "id": "forms-lab-text-field-row", "type": "container" },
+    "text_field": { "id": "forms-lab-text-field", "type": "input" },
+    "checkbox_row": { "id": "forms-lab-checkbox-row", "type": "container" },
+    "checkbox": { "id": "forms-lab-checkbox", "type": "checkbox" },
+    "radio_row": { "id": "forms-lab-radio-row", "type": "container" },
+    "radio_group": { "id": "forms-lab-radio-group", "type": "container" },
+    "radio_1": { "id": "forms-lab-radio-1", "type": "radio" },
+    "radio_2": { "id": "forms-lab-radio-2", "type": "radio" },
+    "dropdown_row": { "id": "forms-lab-dropdown-row", "type": "container" },
+    "dropdown": { "id": "forms-lab-dropdown", "type": "select" },
+    "submit_btn": { "id": "forms-lab-submit-btn", "type": "button" }
+  }
+}

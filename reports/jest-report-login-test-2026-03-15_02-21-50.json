@@ -1,0 +1,53 @@
+{
+  "success": true,
+  "startTime": 1773559310670,
+  "timestamp": "2026-03-15_02-21-50",
+  "runName": "login-test",
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numTotalTests": 2,
+  "numPassedTests": 2,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "testResults": [
+    {
+      "testFilePath": "C:\\Users\\kavit\\Automation\\K11tech\\k11TechLab-vibium-demo\\src\\k11-platform\\tests\\functional\\Login.test.ts",
+      "perfStats": {
+        "end": 1773559317748,
+        "loadTestEnvironmentEnd": 1773559310908,
+        "loadTestEnvironmentStart": 1773559310869,
+        "runtime": 6839,
+        "setupAfterEnvEnd": 1773559311041,
+        "setupAfterEnvStart": 1773559311041,
+        "setupFilesEnd": 1773559310909,
+        "setupFilesStart": 1773559310909,
+        "slow": true,
+        "start": 1773559310909
+      },
+      "numPassingTests": 2,
+      "numFailingTests": 0,
+      "numPendingTests": 0,
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "Login CSV Data Driven"
+          ],
+          "title": "Valid login (testuser)",
+          "status": "passed",
+          "duration": 2789,
+          "failureMessages": []
+        },
+        {
+          "ancestorTitles": [
+            "Login CSV Data Driven"
+          ],
+          "title": "Invalid login (wronguser)",
+          "status": "passed",
+          "duration": 331,
+          "failureMessages": []
+        }
+      ]
+    }
+  ]
+}

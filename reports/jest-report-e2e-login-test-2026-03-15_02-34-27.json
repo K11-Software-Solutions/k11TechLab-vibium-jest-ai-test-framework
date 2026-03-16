@@ -1,0 +1,44 @@
+{
+  "success": true,
+  "startTime": 1773560067608,
+  "timestamp": "2026-03-15_02-34-27",
+  "runName": "e2e-login-test",
+  "numTotalTestSuites": 1,
+  "numPassedTestSuites": 1,
+  "numFailedTestSuites": 0,
+  "numTotalTests": 1,
+  "numPassedTests": 1,
+  "numFailedTests": 0,
+  "numPendingTests": 0,
+  "testResults": [
+    {
+      "testFilePath": "C:\\Users\\kavit\\Automation\\K11tech\\k11TechLab-vibium-demo\\src\\k11-platform\\tests\\e2e\\e2e_login.test.ts",
+      "perfStats": {
+        "end": 1773560074673,
+        "loadTestEnvironmentEnd": 1773560067906,
+        "loadTestEnvironmentStart": 1773560067865,
+        "runtime": 6766,
+        "setupAfterEnvEnd": 1773560068039,
+        "setupAfterEnvStart": 1773560068039,
+        "setupFilesEnd": 1773560067907,
+        "setupFilesStart": 1773560067907,
+        "slow": true,
+        "start": 1773560067907
+      },
+      "numPassingTests": 1,
+      "numFailingTests": 0,
+      "numPendingTests": 0,
+      "assertionResults": [
+        {
+          "ancestorTitles": [
+            "E2E: login using UI and validate dashboard"
+          ],
+          "title": "should login via UI and validate dashboard (testuser)",
+          "status": "passed",
+          "duration": 2574,
+          "failureMessages": []
+        }
+      ]
+    }
+  ]
+}
