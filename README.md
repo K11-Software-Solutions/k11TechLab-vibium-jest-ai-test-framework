@@ -10,8 +10,8 @@
 # k11TechLab Vibium Jest AI Test Framework
 
 A production-style test automation framework for `https://k11softwaresolutions.com`
-built with Jest, Vibium, structured reporting, Lighthouse auditing, AI-assisted
-test generation, and GitHub Actions CI/CD.
+featuring an AI agent and MCP server integration, built with Jest, Vibium,
+structured reporting, Lighthouse auditing, AI-assisted test generation, and GitHub Actions CI/CD.
 
 ## Highlights
 
